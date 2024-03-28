@@ -1,5 +1,7 @@
 # Test: does GlyphsLib successfully set the `licenseURL` of a font?
 
+This repo is made to support https://github.com/googlefonts/glyphsLib/issues/994.
+
 Expectation: `GSFont(fontPath).licenseURL = "https://opensource.org/license/mit"` should set a GlyphsApp font’s License URL to `https://opensource.org/license/mit`. 
 
 Current experience: The `licenseURL` attribute setter doesn’t seem to have any effect – even though related attributes such as `manufacturerURL` do work.
